@@ -8,3 +8,73 @@ body {
 h1 {
   color: #333;
 }
+
+#countries-list {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+li {
+  background-color: white;
+  width: 170px;
+  height: 200px;
+  list-style: none;
+  display: flex;
+  
+  flex-direction: column;
+  margin: 10px 7px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2%;
+  
+}
+li p {
+  font-weight: bold;
+}
+li img {
+  border-radius: 4%;
+}
+li img {
+  width: 150px;
+  border-radius: 2%;
+}
+
+#ficha {
+  width: 450px;
+  border: 0.5px solid rgba(199, 198, 198, 0.637);
+  border-radius: 1%;
+  padding: 30px 10px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  flex-direction: column;
+  display:none;
+}
+
+#ficha img {
+  height: 150px;
+  margin: 15px;
+}
+
+.flag-dates {
+  display: flex;
+  height: 180px;
+  font-size: 14px;
+}
+
+#ficha.active {
+  display: flex;
+
+}
+
+#btnClose {
+  width: 50px;
+  margin-left: 10px;
+}
